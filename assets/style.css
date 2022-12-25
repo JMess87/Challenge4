@@ -1,0 +1,197 @@
+html body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(25deg, red 8%, white 18%, blue 71%, red 99%);
+}
+
+
+.container {
+    width: 600px;
+    max-width: 80%;
+    border-radius: 20px;
+    padding: 20px;
+    border-style: ridge;
+}
+
+
+.timer {
+    width: auto;
+    color: black;
+    background: #d4073b;
+    font-weight: bolder;
+    border: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+}
+
+#question {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    color: 041f19;
+    padding: 25px 55px;
+}
+
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: navy color: aliceblue;
+    border: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: medium;
+    box-shadow: 0 0 12px black;
+    margin-bottom: 10px;
+}
+
+.next-btn {
+    margin-left: 85%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black
+}
+
+
+#quizStart {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quizStart h1 {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 10px;
+    color: white);
+}
+
+.quizStart h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #100ead;
+    text-align: center;
+    padding: 25px;
+}
+
+.quizStart p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.start-btn {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    padding: 25px 55px;
+    background-color: rgb(39, 12, 189);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.restart-btn {
+    background-color: blue;
+    margin: 25px;
+}
+
+.play-again {
+    padding: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+
+.status {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+#score-container p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
+    margin: 25px;
+    text-align: center;
+}
+
+
+#initials-label {
+    font-size: 1.3rem;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.highscores-container {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.scores-btn {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.name-div {
+    color: blue;
+
+}
+
+.score-div {
+    color: var(--darkgreen);
+}
+
+.score-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-info {
+    text-align: center;
+
+}
+
+.submit-btn {
+    margin-left: 25px;
+}
+
+#initials-field {
+    width: 40%;
+    height: 5vh;
+    margin: 25px;
+}

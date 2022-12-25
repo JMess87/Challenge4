@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are you a trivia hero ?</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="scores-btn btn" id="scores-btn">
+            The Highest Scores
+        </button>
+
+        <div class="quizStart">
+            <h1>The Ultimate Marvel Quiz</h1>
+        </div>
+
+        <section id="startInstructions" class="quizStart">
+            <img src="./assets/Marvel.jpg">
+            <button id="startButton" class="start-btn btn">START</button>
+
+            <p>You will have 100 seconds to answer 10 questions about the Marvel multiverse. Best of luck! </p>
+        </section>
+
+        <!--MultipleChoice quiz question section -->
+        <quiz id="question-container" class="hide">
+
+            <div id="timer" class="timer">
+                Time: 100 Sec
+            </div>
+
+            <div id="question"></div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+
+            <div id="status" class="status hide">
+                <span id="correct">Right</span>
+                <span id="incorrect">Wrong</span>
+            </div>
+
+            <button id="next-btn" class="next-btn btn">Next</button>
+
+        </quiz>
+
+        <section id="score-container" class="hide">
+            <form id="submit-form" class="submit-info">
+                <p>Quiz complete</p>
+                <p id="your-score"></p>
+
+                <label id="initials-label">Enter you initials below:</label>
+                <br>
+                <input type="text" id="initials-field" maxlength="3" placeholder="Enter your initials" />
+                <br>
+
+                <button id="submit-btn" class="submit-btn btn">Submit</button>
+                <button id="restar-btn" class="restart-btn btn">Start Again</button>
+            </form>
+        </section>
+
+        <section id="highscores" class="highscores-container hide">
+            <div id="high-scores">
+                <h1 class="centered">Leaderboard</h1>
+
+                <div id="highscore" class="highscore highscore-list"></div>
+
+                <div class="play-again">
+                    <button id="restart-btn" class="restart-btn btn">Play Again!</button>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
