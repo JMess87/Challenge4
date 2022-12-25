@@ -14,13 +14,9 @@ If the timer runs out before you answer all the questions the quiz will stop and
 
 <!-- Marvel Quiz Screen Shots -->
 
-
-
-
-
-
-
-
+[![Marvel-Screenshot-1.png](https://i.postimg.cc/FRy32d2z/Marvel-Screenshot-1.png)](https://postimg.cc/7GL5z6Pr)
+[![Marvel-Screenshot-2.png](https://i.postimg.cc/nzpC9dPV/Marvel-Screenshot-2.png)](https://postimg.cc/t1vXLzb8)
+[![Marvel-Screenshot-3.png](https://i.postimg.cc/ZRwKBJNj/Marvel-Screenshot-3.png)](https://postimg.cc/cg8NPyX8)
 
 
 ## Acceptance Criteria
