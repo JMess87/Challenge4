@@ -2,7 +2,23 @@
 
 https://facts.net/marvel-facts/
 
+
+
+<!-- Instructions -->
+
+Open deployed website, click start to start the quiz. When you hit start the timer will start counting down from 100. If you get a question wrong 10 secons will come off the timer.
+
+You will get 10 points per question
+
+If the timer runs out before you answer all the questions the quiz will stop and your current score will be your end score. At the end of the game you can hide your high score.
+
 <!-- Marvel Quiz Screen Shots -->
+
+
+
+
+
+
 
 
 
