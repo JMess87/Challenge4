@@ -15,6 +15,23 @@ If the timer runs out before you answer all the questions the quiz will stop and
 <!-- Marvel Quiz Screen Shots -->
 
 
+Resouces and Citing
+- Stackover flow
+- Hide show appending of class learned during group project with Z L,Suvarna and Brian
+- W3 Schools
+
+Citation 
+Portions of code listed below were referenced from the following repository. (https://github.com/GEEZEE91/JavaScript-Multiple-Choice-Quiz/blob/8352b4f3e5207219fd604bd287dece2d0cb72b18/assets/js/script.js)
+
+JavaScript
+Lines 7-12, 24 and 26 - Defining variables
+Lines 44-49 -timer countdown to 0
+Lines 55-64 - triggering the timer starts the hide show functiona
+Lines 71-78 - setting next question
+Lines 83-137 - Displays if question is right or wrong and addition of time for incorrect questions. Manipulation of the DOM using the add and remove of ofe the hide class
+Lines 227-237 Stopping the clock and setting final score
+Lines 241-257 - High scores window and display
+Lines 261-289 - Storing high scores
 
 
 
