@@ -14,6 +14,10 @@ If the timer runs out before you answer all the questions the quiz will stop and
 
 <!-- Marvel Quiz Screen Shots -->
 
+[![Marvel-Screenshot-1.png](https://i.postimg.cc/FRy32d2z/Marvel-Screenshot-1.png)](https://postimg.cc/7GL5z6Pr)
+[![Marvel-Screenshot-2.png](https://i.postimg.cc/nzpC9dPV/Marvel-Screenshot-2.png)](https://postimg.cc/t1vXLzb8)
+[![Marvel-Screenshot-3.png](https://i.postimg.cc/ZRwKBJNj/Marvel-Screenshot-3.png)](https://postimg.cc/cg8NPyX8)
+
 
 Resouces and Citing
 - Stackover flow
@@ -32,6 +36,7 @@ Lines 83-137 - Displays if question is right or wrong and addition of time for i
 Lines 227-237 Stopping the clock and setting final score
 Lines 241-257 - High scores window and display
 Lines 261-289 - Storing high scores
+
 
 
 
